@@ -1,0 +1,5 @@
+---
+- name: import message file
+  hosts: target1
+  tasks:
+  - import_tasks: foo.yml
